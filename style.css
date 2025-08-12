@@ -1,0 +1,170 @@
+#{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 205, 169);
+}
+#intro{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(236, 168, 109);
+    padding: 20px;
+}
+#intro h1{
+    font-size: 110px;
+    line-height: 130px;
+    letter-spacing: -8px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+#intro h4{
+    margin-top: -4.4%;
+    font-size: 23px;
+    color: darkred;
+}
+#intro h5{
+    
+    font-size: 23px;
+    margin-left: 88%;
+    margin-top: -3.1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+#hero-image{
+    height: 120%;
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1592188657297-c6473609e988?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpcmx8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    object-fit: contain;
+    
+  background-repeat: no-repeat; /* removes tiling */
+  background-position: center; 
+
+  
+    
+}
+
+
+#nav{
+    background-color: rgb(236, 168, 109);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 40px;
+    font-size: 20px;
+    
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding:13px 20px;
+    font-size: 26px;
+ border-radius: 70px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-left: 7px;
+    
+}
+#about{
+    height: 45%;
+    width: 100%;
+    background-color: azure;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+
+#about h2{
+    width: 60%;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: -15%;
+}
+#about-part2 {
+    width: 30%;
+    
+    position: absolute; /* float inside nearest positioned ancestor */
+    right: 50px;         /* from right edge */
+    top: 205%;   
+    font-size: 26px;     
+       padding: 0px 30px;
+    border-left: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#ICONS{
+   
+}
+#ICONS i{
+    background-color: black;
+    color: white;
+    padding: 7px ;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+   justify-content:space-between;
+ border-right: 2px solid black;
+ 
+
+
+}
+#work2{
+    width: 70%;
+    height: 100%;
+    padding: 0px 70px;
+   
+}
+#work1 h3{
+    font-size: 25px;
+    padding: 0px 5px;
+    
+
+}
+    
+.work2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.work2-part:nth-child(1){
+    border-bottom: 3px solid rgb(12, 12, 12);
+
+}
+.work2-part.elem{
+    width: 50%;
+    height: 100%;
+    padding: 50px 35px;
+}
+.work2-part.elem:nth-child(1){
+    border-right: 2px solid black;
+}
